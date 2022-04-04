@@ -1,0 +1,87 @@
+/* style.css */
+
+h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    padding-left: 150px;
+    padding-top: 125px;
+    margin: auto;
+}
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.text-light{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 10px;
+}
+img {
+    float: right;
+    padding-right: 100px;
+    padding-top: 0;
+    
+}
+.title >img:nth-child(1) {
+    padding-top: 30px;
+    padding-right:180px;
+    z-index: 9;
+}
+.title {
+    width:1200px;
+    height: 620px;
+    background-color:#2AC1BC ;
+    color: #2AC1BC;
+    background-image:url('image/istockphoto-1289063666-170667a.jpg');
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title div {
+    
+    padding-top: 0px;
+    padding-right: 10px;
+    
+}
+
+#ride {
+   padding-right: 900px;
+   margin-top: 130px;
+    display: inline-block;
+}
+.section2,.section3,.section4,.section5,.section6,.section7 {
+    width:1200px;
+    height: 620px;
+    background-color:#2AC1BC ;
+    color: #fff;
+    margin: 0 auto;
+}
+.footer {
+    background-color: #fff;
+    width: 1200px;
+    height:400px;
+}
+
+.icon{
+    padding-left:200px;
+    display: inline-block;
+    margin: 0px 0px 0px 200px;
+}
+
+div {
+    background-image: url('image/logol.png');    
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
